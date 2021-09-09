@@ -35,13 +35,17 @@ $bestService-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --colorTexto: rgba(15,78,200,0.87718837535014);
+    --colorTexto: #5e29ff;
+    --colorButtons: #ae62ff;
+    --colorBackground: #727176;
 }
 body {
     margin: 0;
     padding: 0;
-    background: rgb(150,42,221);
-    background: linear-gradient(90deg, rgba(150,42,221,1) 0%, rgba(15,78,200,0.87718837535014) 87%);
+    background-image: url('./assets/images/fondoMovil.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 html, body { 
   height: 100%; 
