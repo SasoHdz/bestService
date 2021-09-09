@@ -1,0 +1,35 @@
+:host {
+    width: 240px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #a09ba5;
+    margin-left: 10px;
+}
+
+.container-searicon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ae62ff;
+    margin: 3px 5px;
+}
+
+span {
+    color: white;
+    margin: 3px;
+}
