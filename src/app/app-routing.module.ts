@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LandingComponent } from './landing/landing.component';
 import { LayoutServicioComponent } from './layout-servicio/layout-servicio.component';
+import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'servicio',
     component: LayoutServicioComponent
+  },
+  {
+    path: 'select-service',
+    component: LayoutSelectServiceComponent
   }
 ];
 

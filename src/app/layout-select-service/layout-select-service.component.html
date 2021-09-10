@@ -1,0 +1,15 @@
+<app-header></app-header>
+<div class="header">
+    <div class="logo">
+        <img src="../../assets/images/btnpequenos/btnP_carpinteria-04.png" alt="Carpintero">
+    </div>
+    <h2>
+        SERVICIO DE CARPINTERO
+    </h2>
+</div>
+<div class="list-cards">
+    <div class="card" *ngFor="let name of names">
+        <img src="../../assets/images/btnAdicionales/card.PNG" [alt]="name">
+        <p>{{name}}</p>
+    </div>
+</div>

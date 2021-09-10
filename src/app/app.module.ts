@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutServicioComponent } from './layout-servicio/layout-servicio.component';
 import { ServicioButtonComponent } from './servicio-button/servicio-button.component';
 import { SearchComponent } from './search/search.component';
+import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SearchComponent } from './search/search.component';
     LandingComponent,
     LayoutServicioComponent,
     ServicioButtonComponent,
-    SearchComponent
+    SearchComponent,
+    LayoutSelectServiceComponent
   ],
   imports: [
     BrowserModule,

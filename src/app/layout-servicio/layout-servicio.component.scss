@@ -15,7 +15,7 @@
 }
 
 .list-container {
-    min-width: 300px;
+    min-width: 280px;
     height: auto;
     margin: 15px 2px;
     display: flex;
@@ -26,7 +26,15 @@
 .list-container .material-icons {
     width: 10px;
     height: auto;
-    font-size: 50px;
+    font-size: 30px;
+}
+
+.back {
+    margin-left: 5px;
+}
+
+.forward {
+    margin-right: 14px;
 }
 
 .listServicios {
@@ -34,7 +42,7 @@
     height: 300px;
     padding: 20px;
     border-radius: 20px;
-    background-color: white;
+    /* border: 1px solid white; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-self: center;
