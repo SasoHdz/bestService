@@ -15,7 +15,7 @@ const routes: Routes = [
     component: LayoutServicioComponent
   },
   {
-    path: 'select-service',
+    path: 'select-servicio',
     component: LayoutSelectServiceComponent
   }
 ];

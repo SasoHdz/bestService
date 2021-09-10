@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 import { Imagen } from '../image.model';
+import { ServicioDeDatosService } from '../servicio-de-datos.service';
 
 
 @Component({
@@ -10,10 +11,16 @@ import { Imagen } from '../image.model';
 })
 export class ServicioButtonComponent implements OnInit {
 
-  constructor() { }
+  constructor(private servicioDatos : ServicioDeDatosService) { }
 
   ngOnInit(): void {
   }
 
   @Input() image !: Imagen;
+
+  enviarImage(dataIn:any){
+    console.log(dataIn);
+    this.servicioDatos.disparadorDatos.emit(dataIn)
+  }
+
 }
