@@ -9,7 +9,7 @@
     </h2>
 </div>
 <div class="list-cards">
-    <div class="card" *ngFor="let name of names">
+    <div routerLink="/info-user" class="card" *ngFor="let name of names">
         <img src="../../assets/images/btnAdicionales/card.PNG" [alt]="name">
         <p>{{name}}</p>
     </div>

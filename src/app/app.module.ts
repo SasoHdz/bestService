@@ -10,6 +10,8 @@ import { LayoutServicioComponent } from './layout-servicio/layout-servicio.compo
 import { ServicioButtonComponent } from './servicio-button/servicio-button.component';
 import { SearchComponent } from './search/search.component';
 import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
+import { InfoUserComponent } from './info-user/info-user.component';
+import { LayoutInfoUserComponent } from './layout-info-user/layout-info-user.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LayoutSelectServiceComponent } from './layout-select-service/layout-sel
     LayoutServicioComponent,
     ServicioButtonComponent,
     SearchComponent,
-    LayoutSelectServiceComponent
+    LayoutSelectServiceComponent,
+    InfoUserComponent,
+    LayoutInfoUserComponent
   ],
   imports: [
     BrowserModule,
