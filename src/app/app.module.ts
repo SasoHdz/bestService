@@ -12,6 +12,10 @@ import { SearchComponent } from './search/search.component';
 import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
 import { InfoUserComponent } from './info-user/info-user.component';
 import { LayoutInfoUserComponent } from './layout-info-user/layout-info-user.component';
+import { DetailsUserComponent } from './details-user/details-user.component';
+import { TerminosUserComponent } from './terminos-user/terminos-user.component';
+import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
+import { LayoutTerminosUserComponent } from './layout-terminos-user/layout-terminos-user.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { LayoutInfoUserComponent } from './layout-info-user/layout-info-user.com
     SearchComponent,
     LayoutSelectServiceComponent,
     InfoUserComponent,
-    LayoutInfoUserComponent
+    LayoutInfoUserComponent,
+    DetailsUserComponent,
+    TerminosUserComponent,
+    LayoutDetailsUserComponent,
+    LayoutTerminosUserComponent
   ],
   imports: [
     BrowserModule,

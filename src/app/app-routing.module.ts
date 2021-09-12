@@ -5,6 +5,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LayoutServicioComponent } from './layout-servicio/layout-servicio.component';
 import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
 import { LayoutInfoUserComponent} from './layout-info-user/layout-info-user.component';
+import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
     path: 'info-user',
     component: LayoutInfoUserComponent
   },
+  {
+    path: 'details-user',
+    component: LayoutDetailsUserComponent
+  }
 ];
 
 @NgModule({
