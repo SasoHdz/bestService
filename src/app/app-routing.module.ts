@@ -7,6 +7,7 @@ import { LayoutSelectServiceComponent } from './layout-select-service/layout-sel
 import { LayoutInfoUserComponent} from './layout-info-user/layout-info-user.component';
 import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
 import { LayoutTerminosUserComponent} from './layout-terminos-user/layout-terminos-user.component';
+import { FechasUserComponent } from './fechas-user/fechas-user.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'terminos-user',
     component: LayoutTerminosUserComponent
+  },
+  {
+    path: 'fechas-user',
+    component: FechasUserComponent
   }
 ];
 
