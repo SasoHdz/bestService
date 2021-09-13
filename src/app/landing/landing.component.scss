@@ -5,7 +5,7 @@
 }
 
 .body {
-    width: 90%;
+    width: 450px;
     height: auto;
     margin: auto auto;
 }
@@ -40,4 +40,16 @@ button {
     font-weight: bold;
     border-radius: 20px;
     background: var(--colorButtons);
+}
+
+@media (min-width: 300px) {
+    .body {
+        width: 290px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .body {
+        width: 500px;
+    }
 }

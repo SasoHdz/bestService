@@ -10,3 +10,23 @@
     width: 50px;
 }
 
+@media (min-width: 648px) {
+
+    .container {
+        margin-top: 20px;
+    }
+    .terminos , .fechas {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1020px) {
+
+    .container {
+        margin-top: 40px;
+    }
+    .terminos , .fechas {
+        width: 400px;
+    }
+}
+

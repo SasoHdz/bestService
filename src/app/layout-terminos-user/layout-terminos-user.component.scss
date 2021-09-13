@@ -1,14 +1,25 @@
 .container {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     border-radius: 20px;
+    margin: 20px auto;
 }
 
-.terminos .pago {
-    width: 50px;
+.terminos , .pago {
+    width: 220px;
 }
 
+
+@media (min-width: 648px) {
+
+    .container {
+        margin-top: 50px;
+    }
+    .terminos , .pago {
+        width: 350px;
+    }
+}

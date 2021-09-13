@@ -50,3 +50,66 @@ p {
     left: 120px;
     font-size: 16px;
 }
+
+@media (min-width: 648px) {
+    
+    .container {
+        width: 400px;
+        height: 450px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .name {
+        top: 190px;
+        left: 270px;
+        font-size: 23px;
+    }
+    
+    .oficio {
+        top: 210px;
+        left: 270px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 865px) {
+    
+    .container {
+        width: 600px;
+        height: 650px;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .name {
+        top: 250px;
+        left: 330px;
+        font-size: 26px;
+    }
+    
+    .oficio {
+        top: 280px;
+        left: 330px;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1020px) {
+
+    .name {
+        top: 250px;
+        left: 600px;
+        font-size: 26px;
+    }
+    
+    .oficio {
+        top: 280px;
+        left: 600px;
+        font-size: 22px;
+    }
+}
