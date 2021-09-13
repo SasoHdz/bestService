@@ -17,6 +17,7 @@ import { TerminosUserComponent } from './terminos-user/terminos-user.component';
 import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
 import { LayoutTerminosUserComponent } from './layout-terminos-user/layout-terminos-user.component';
 import { FechasUserComponent } from './fechas-user/fechas-user.component';
+import { CalendarioUserComponent } from './calendario-user/calendario-user.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FechasUserComponent } from './fechas-user/fechas-user.component';
     TerminosUserComponent,
     LayoutDetailsUserComponent,
     LayoutTerminosUserComponent,
-    FechasUserComponent
+    FechasUserComponent,
+    CalendarioUserComponent
   ],
   imports: [
     BrowserModule,

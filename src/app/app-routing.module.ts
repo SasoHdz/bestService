@@ -8,6 +8,7 @@ import { LayoutInfoUserComponent} from './layout-info-user/layout-info-user.comp
 import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
 import { LayoutTerminosUserComponent} from './layout-terminos-user/layout-terminos-user.component';
 import { FechasUserComponent } from './fechas-user/fechas-user.component';
+import { CalendarioUserComponent } from './calendario-user/calendario-user.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path: 'fechas-user',
     component: FechasUserComponent
+  },
+  {
+    path: 'calendar-user',
+    component: CalendarioUserComponent
   }
 ];
 
