@@ -6,6 +6,7 @@ import { LayoutServicioComponent } from './layout-servicio/layout-servicio.compo
 import { LayoutSelectServiceComponent } from './layout-select-service/layout-select-service.component';
 import { LayoutInfoUserComponent} from './layout-info-user/layout-info-user.component';
 import { LayoutDetailsUserComponent } from './layout-details-user/layout-details-user.component';
+import { LayoutTerminosUserComponent} from './layout-terminos-user/layout-terminos-user.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'details-user',
     component: LayoutDetailsUserComponent
+  },
+  {
+    path: 'terminos-user',
+    component: LayoutTerminosUserComponent
   }
 ];
 

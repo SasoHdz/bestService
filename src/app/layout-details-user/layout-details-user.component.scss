@@ -1,14 +1,16 @@
-:host {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-items: center;
     width: 90%;
     height: 460px;
-    color: white;
+    color: rgb(36, 35, 35);
     border-radius: 20px;
     background-color: white;
-    margin: 20px 0 auto;
+    margin: 0 auto;
+    text-align: center;
 }
 h2 {
     font-size: 19px;
@@ -16,6 +18,7 @@ h2 {
 }
 
 .btn-container {
+    position: relative;
     width: 280px;
     height: auto;
     display: flex;
@@ -25,10 +28,22 @@ h2 {
 
 button {
     position: absolute;
-    width: 150px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     border-radius: 15px;
     font-size: 18px;
     font-weight: 500px;
     text-align: center;
+    border: none;
+    color: rgb(36, 35, 35);
+}
+
+.btn1 {
+    top: -32px;
+    left: 30px;
+}
+
+.btn2 {
+    top: -32px;
+    left: 130px;
 }
